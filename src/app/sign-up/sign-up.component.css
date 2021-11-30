@@ -1,5 +1,5 @@
-.username{
-	width: 500px;
+ .username{
+	width: 200px;
 	height: 40px;
 	background-color: azure;
 
@@ -7,7 +7,7 @@
 }
 .surname{
 
-width: 500px;
+width: 200px;
 	height: 40px;
 	background-color: azure;
 	font-size: medium;
@@ -15,7 +15,7 @@ width: 500px;
 }
 .email{
 	
-width: 500px;
+width: 200px;
 height: 40px;
 background-color: azure;
 font-size: medium;
@@ -23,23 +23,53 @@ font-size: medium;
 
 }
 .mblno{
-	width: 500px;
+	width: 200px;
 	height: 40px;
 	background-color: azure;
 	font-size: medium;
 	
 }
 .gender{
-	width: 500px;
+	width: 200px;
 	height: 40px;
 	background-color: azure;
 	font-size:medium;
 	
 }
 .pass{
-	width: 500px;
+	width: 200px;
 	height: 40px;
 	background-color: azure;
 	font-size: medium;
 	
+} 
+
+.cont-form{
+    width:350px;
+    height: 575px;
+	background-color:darkgrey;
+	text-align: center;
+	box-shadow: 30px;
+	margin:auto;
+}
+	
+	/* margin-right: 500px; 
+	margin-top: 75px;
+} */
+form{
+	padding-top: 30px;
+	border-radius: 10px;
+}
+.form-group{
+	width: 200px;
+	margin:auto;
+	padding: 5px;
+	font-size: medium;
+
+}
+.container{
+	margin-right: 50px;
+}
+main{
+	background-image: url("https://www.google.com/search?q=blog+hd+images&rlz=1C1GCEU_enIN968IN968&tbm=isch&source=iu&ictx=1&fir=V8WF47ifRJ0vJM%252C90IkReQ-36PpmM%252C_%253Bo5he8MVSoRWYLM%252Co1PE1etwDhCD5M%252C_%253ByXYNVPBXn0yqOM%252C6NIofCso2OoybM%252C_%253Bc1odxGElMS4_lM%252C90IkReQ-36PpmM%252C_%253BpIkuNfP6I2BbJM%252C90IkReQ-36PpmM%252C_%253BfOwHwIaiLmzS4M%252C6NIofCso2OoybM%252C_%253BYkYZD3obXX1dLM%252C6NIofCso2OoybM%252C_%253B5xnO1T37fxdqIM%252C90IkReQ-36PpmM%252C_%253BEV16_Y6yZwaDFM%252CeBM8RrXaaBqYlM%252C_%253Bl5-MlxYZhIOIkM%252C9UU4cUuNVpjRIM%252C_%253BeXpkrae19plN-M%252CcqXp9U_vwmMX3M%252C_%253BgqCcHAhF5pTxbM%252C90IkReQ-36PpmM%252C_&vet=1&usg=AI4_-kQknnNfdh5YHkpP4BJSmsHjt9Y5Ig&sa=X&ved=2ahUKEwjps-r1_b_0AhWf7HMBHSauDLcQ9QF6BAgKEAE#imgrc=fOwHwIaiLmzS4M");
 }

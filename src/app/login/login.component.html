@@ -1,25 +1,40 @@
-<app-home-page></app-home-page>
+<!-- <app-home-page></app-home-page> -->
+<div class="maincontainer">
 <div class="container">
     <div class="col-md-8 mx-auto">
-        <div class="card-header my-2">
+        <!-- <div class="card-header my-2">
             <h2 class="text-primary ">Login</h2>
-        </div>
+        </div> -->
         <form>
-            <div class="form-group">
-                <label for="email">Email Id</label>
-                <input type="email" class="form-control email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" class="form-control pass" name="password" required>
-            </div>
-            <div class="form-group my-2">
-                <button class="btn btn-primary">Login</button>
+            <div class="home">
+                <div class="cont-form">
+                    <div class="form-group">
+                        <h2 class="text-primary ">Login</h2>
+                        <label for="email">Email Id</label>
+                        <input type="email" class="form-control" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" name="password" required>
+                    </div>
+                    <div class="form-group my-2">
+                        <button class="btn btn-primary" routerLink='/ab'>Login</button>
+                        <br />
 
-                <a href="/forgotpassword" target="_blank">Forgotpassword </a> 
+                        <a href="/forgotpassword" target="_blank" class="forgot">Forgotpassword? </a>
+                        <br />
 
+
+                        <p>
+                            <span>or</span>
+                        </p>
+
+                        <p>Don't Have Account?ClickHere<button type="submit" routerLink="/sign-up" class="submit">Create New Acoount</button></p>
+                      
+                    </div>
+                </div>
             </div>
-
         </form>
-        </div>
+    </div>
+</div>
 </div>
