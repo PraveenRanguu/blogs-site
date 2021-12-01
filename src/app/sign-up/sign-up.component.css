@@ -46,7 +46,7 @@ font-size: medium;
 
 .cont-form{
     width:350px;
-    height: 575px;
+    height: auto;
 	background-color:darkgrey;
 	text-align: center;
 	box-shadow: 30px;

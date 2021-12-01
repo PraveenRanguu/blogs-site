@@ -8,8 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class LoginComponent implements OnInit {
 
   constructor() { }
-
+  onSubmit(user:any){
+    console.log("login");
+    console.log(user);
+}
   ngOnInit(): void {
+    
   }
 
 }
